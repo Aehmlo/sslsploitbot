@@ -71,4 +71,4 @@ fs.exists(the_path, function(exists){
 		tweeted = {};
 	}
 });
-check_for_sploit();
+setInterval(check_for_sploit, 60000);
