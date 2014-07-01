@@ -1,0 +1,28 @@
+{
+  "name": "sslsploitbot",
+  "version": "0.0.0",
+  "description": "Tweets updates from dayswithoutansslexploit.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Aehmlo/sslsploitbot.git"
+  },
+  "keywords": [
+    "SSL",
+    "exploit",
+    "bot",
+    "twitter"
+  ],
+  "author": "Aehmlo Lxaitn <aehmlo@aehmlo.com> (http://aehmlo.com/)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Aehmlo/sslsploitbot/issues"
+  },
+  "dependencies": {
+    "ntwitter": "~0.5.0",
+    "request": "~2.36.0"
+  }
+}
