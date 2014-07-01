@@ -35,9 +35,12 @@ var check_for_sploit = function(){
 			return;
 		}
 		tweeted[name] = true;
-		var twit = new twitter(
-			//Keys here
-		);
+		var twit = new twitter({
+			consumer_key: "",
+			consumer_secret: "",
+			access_token_key: "",
+			access_token_secret: ""
+		});
 		twit.verifyCredentials(function(err, data){
 			if(err){
 				console.log(err);
